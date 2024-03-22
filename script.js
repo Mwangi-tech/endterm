@@ -108,18 +108,7 @@ const startingMinutes = 60; // Set the timer duration in minutes
                 ]
                
             },
-            {
-                question: "Watch the following video and answer the questions that follow:",
-                video: "scie.mp4",
-                mainQuestion: "Which of the following is NOT a scientific skill?",
-                answers: [
-                    { text: "Observation", correct: false, checked: false },
-                    { text: "Classification", correct: false, checked: false },
-                    { text: "Manipulation", correct: false, checked: false },
-                    { text: "Writing a report", correct: true, checked: true },
-                ]
-                
-            },
+           
             {
         
                 question: "The following are components of integrated science.",
