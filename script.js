@@ -77,7 +77,7 @@ const startingMinutes = 60; // Set the timer duration in minutes
                
             },
             {
-                question: "Which of the following is NOT a basic quantity?",
+                question: "Which of the following is NOT a derived quantity?",
                 answers: [
                     { text: "Area", correct: false, checked: false  },
                     { text: "Density", correct: false, checked: false },
@@ -99,7 +99,7 @@ const startingMinutes = 60; // Set the timer duration in minutes
                 
             },
             {
-                question: "Which of the following scientific skills is correctly matched with its meaning?",
+                question: "Which of the following scientific skills is NOT correctly matched with its meaning?",
                 answers: [
                     { text: "Conclusion - Final decision after making an observation", correct: false, checked: false  },
                     { text: "Communication - Skill used in exchanging and reporting information", correct: false, checked: false },
@@ -160,19 +160,7 @@ const startingMinutes = 60; // Set the timer duration in minutes
                 ]
             },
         
-            {
-                
-                question: "What part of the microscope is responsible for regulating the amount of light that passes through the specimen?",
-                //image: "image1.jpg",
-                //mainQuestion:"Which one is odd one out?",
-                answers: [
-                    {text: "Objective lenses", correct: false, checked: false},
-                    {text: " Diaphragm", correct: true, checked: true},
-                    {text: " Eyepiece", correct: false, checked: false},
-                    {text: "Stage", correct: false, checked: false},
-                    
-                ]
-            },
+           
         
             {
                 
