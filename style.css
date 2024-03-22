@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    /*background: #001e4d;*/
+    background-color: rgba(0, 153, 255, 0.5);
+}
+p{
+    background: #fff;
+    display: inline-flex;
+    height: 70px;
+    width: 150px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 30px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    margin-left: 30%;
+    padding-top: 10px;
+    
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    body {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    body {
+        font-size: 16px;
+    }
+}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for small screens */
+    app {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Adjust styles for medium screens */
+    app {
+        font-size: 16px;
+    }
+}
+
+
+.app{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.app h1{
+    font-size: 36px; 
+    padding-bottom: 30px;
+    color: #12eb6c;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  .inst h2{
+    font-size: 24px;
+    color: #f3a6a6;
+    font-weight: 800;
+    padding-bottom: 20px;
+    text-align: center; 
+    padding-top: 2px;
+    margin-bottom: 10px;
+
+  }
+.quiz h3{
+    font-size: 20px;
+    color: #001e4d;
+    font-weight: 600;
+    padding-bottom: 20px;
+    text-align: center; 
+
+}
+.btn {
+    background: #fff;
+    color: #222;
+    font-weight: 700;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+#next-btn {
+  background: #001e4d; 
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0; 
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+.correct{
+    background: #4afc53;
+}
+.incorrect{
+    background: #fd0e0e;
+}
+.question-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Make the image a block element to remove any extra spacing below */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 8px; /* Add rounded corners to the image */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+.video-container {
+    margin-top: 5px; /* Adjust as needed for spacing */
+}
+
+.question-video {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px; /* Adjust as needed for spacing */
+}
+#signature{
+    text-align: center;
+    
+   margin-top: 10px;
+    color: #592ff0;
+    font-size: 15px;
+    font-weight: normal;
+    color: #777;
+}
+.main-question {
+    font-weight: lighter;  /* Add your preferred styles here*/
+    color: rgb(79, 79, 240);
+    font-size: 15px;
+}
+.regular-question {
+    font-family: sans-serif;  /* Add your preferred font family */
+    font-size: 16px;  /* Add your preferred font size */
+    font-weight: 800;  /* Add your preferred font weight */
+    color: #333;  /* Add your preferred font color */
+    /* Add any other font styles you'd like to customize */
+    
+}
+#introduction-container {
+    text-align: center;
+    margin: 50px;
+}
+
+#quiz-container {
+    display: none; /* Initially hide the quiz container */
+    margin: 20px;
+}
+.intro {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+.intro h1 {
+    color: #3811e7;
+    font-size: 28px;
+}
+
+.intro p {
+    color: #fa0808;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.intro ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.intro li {
+    color: #0a0a0a;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+#start-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#start-btn:hover {
+    background-color: #2980b9;
+}
+.intro ul li span.highlight {
+    color: #ff0000; /* Use your preferred highlight color */
+}
+.intro ul li span.high {
+    color: #27da30; /* Use your preferred highlight color */
+}
+.intro ul li span.light {
+    color: #3c1eaa; /* Use your preferred highlight color */
+}
+
+#signature-container {
+   /* background-color: #ffc107; /* Set a fun background color */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5px;
+    /*margin-left: 10%;*/
+}
+
+#signature-container h4 {
+    font-family: 'Comic Sans MS', cursive; /* Use a playful font */
+    color: #9993a7; /* Set a vibrant color */
+    margin-bottom: 5px;
+}
+img {
+    max-width: 100%; /* Ensure images do not exceed the width of their container */
+    height: auto; /* Maintain the aspect ratio */
+}
+.intro-image {
+    position: relative;
+    border-radius: 10px;
+}
+.check-mark {
+    margin-left: 5px; /* Adjust the spacing as needed */
+    font-size: 1.2em; /* Adjust the font size as needed */
+    color: red; /* Change the color to your desired color */
+    font-weight: bold; /* Adjust the font weight as needed */
+}
+
+/* Style for incorrect answers */
+.incorrect .check-mark {
+    color: black; /* Change the color to your desired color for incorrect answers */
+}
+
+.intro-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)); /* Example gradient colors */
+    border-radius: 10px;
+}
+
+#explanation {
+    display: none;
+    margin-top: 10px;
+}
+#countdown-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%; /* Ensure it takes full width */
+    height: 100%; /* Ensure it takes full height */
+    
+}
+
+#countdown {
+    font-size: 24px;
+    color: black; /* Change color as needed */
+    font-family: Arial, sans-serif; /* Change font family as needed */
+    display:flex;
+    text-align: center;
+    /* Add any other styling properties as needed */
+}
+
+/*.intro-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+   /* border-radius: 10px; /* Add rounded corners for a more appealing look */
+   /* margin-bottom: 20px; /* Adjust as needed to create spacing */
+
+
+#signature p {
+    font-family: 'Comic Sans MS', cursive; /* Use the same playful font */
+    color: #fff; /* Set a slightly darker color for the text */
+    margin: 0;
+}
